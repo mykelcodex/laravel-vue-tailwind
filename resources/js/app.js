@@ -1,10 +1,14 @@
 require("./bootstrap");
 
 import { createApp } from "vue";
-import App from "../components/App.vue";
+import Login from "../components/Auth/Login.vue";
+import Pay from "../components/Payments/Index.vue";
+import Dashboard from "../components/Dashboard.vue";
 const app = createApp({
     components: {
-        App,
+        Login,
+        Pay,
+        Dashboard,
     },
 });
 
